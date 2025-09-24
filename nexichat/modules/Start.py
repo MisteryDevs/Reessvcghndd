@@ -6,6 +6,7 @@ from nexichat import nexichat
 async def start_message(client: Client, message: Message):
     await message.reply_video(
         video="https://envs.sh/RCD.mp4",
+        has_spoiler=True,
         caption=(
             f"""**❖ нᴇʏ  {message.from_user.first_name} !, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ !
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━
