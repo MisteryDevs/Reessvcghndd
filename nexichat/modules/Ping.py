@@ -79,6 +79,7 @@ async def ping(client: Client, message: Message):
     loda = await message.reply_photo(
         photo=random.choice(IMG),
         caption="ᴘɪɴɢɪɴɢ...",
+        has_spoiler=True,
     )
 
     ms = (datetime.now() - start).microseconds / 1000
