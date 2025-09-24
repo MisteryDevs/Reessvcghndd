@@ -26,11 +26,11 @@ async def start_message(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [  # First row
-                    InlineKeyboardButton("❖ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ❖", url="https://t.me/REACTION7_ROBOT?startgroup=true")
+                    InlineKeyboardButton("❖ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ❖", url="https://t.me/ReactionByBot?startgroup=true")
                 ],
                 [  # Second row
-                    InlineKeyboardButton("• sᴜᴘᴘᴏꝛᴛ •", url="https://t.me/BOTMINE_SUPPORT"),
-                    InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇ •", url="https://t.me/BOTMINE_TECH")
+                    InlineKeyboardButton("• sᴜᴘᴘᴏꝛᴛ •", url="https://t.me/ur_rishu_143"),
+                    InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇ •", url="https://t.me/vip_robotz")
                 ]
             ]
         )
