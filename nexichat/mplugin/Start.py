@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from nexichat import nexichat
 
-SUPPORT_CHANNEL = "BOTMINE_SUPPORT"  # Updates/Support channel (constant)
+SUPPORT_CHANNEL = "Ur_Rishu_143"  # Updates/Support channel (constant)
 
 @Client.on_message(filters.command("start"))
 async def start_message(client: Client, message: Message):
@@ -22,16 +22,16 @@ async def start_message(client: Client, message: Message):
 ❍ • ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs •
 ⦿━━━━━━━━━━━━━━━━━━━━━⦿
 
-❖ ᴛʜɪs ɪs ᴘᴏᴡᴇʀғᴜʟ ʙᴏᴛ, ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ •\n\n❍ • ʏᴏᴜ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ʙᴏᴛ ʙʏ @REACTION7_ROBOT  •\n\n❍ • ᴜᴘᴅᴀᴛᴇ - @BOTMINE_TECH**"""
+❖ ᴛʜɪs ɪs ᴘᴏᴡᴇʀғᴜʟ ʙᴏᴛ, ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ •\n\n❍ • ʏᴏᴜ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ʙᴏᴛ ʙʏ @ReactionByBot  •\n\n❍ • ᴜᴘᴅᴀᴛᴇ - @Ur_rishu_143**"""
 
     buttons = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("➕ Add Me To Your Group", url=f"https://t.me/{bot.username}?startgroup=true")
+                InlineKeyboardButton("✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙", url=f"https://t.me/{bot.username}?startgroup=true")
             ],
             [
-                InlineKeyboardButton("📢 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHANNEL}"),
-                InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url=f"https://t.me/{message.from_user.username}" if message.from_user.username else f"tg://user?id={message.from_user.id}")
+                InlineKeyboardButton("⌯  sᴜᴘᴘᴏʀᴛ ⌯", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                InlineKeyboardButton("⌯  ᴏᴡɴᴇʀ ⌯", url=f"https://t.me/{message.from_user.username}" if message.from_user.username else f"tg://user?id={message.from_user.id}")
             ]
         ]
     )
